@@ -1,0 +1,353 @@
+body {
+	background-color: #00060b;
+	margin-top: 0px;
+}
+a:link {
+	color: #0408fb;
+	text-decoration: none;
+}
+a:visited {
+	color: #0217cf;
+	text-decoration: none;
+}
+a:hover {
+	color: #000099;
+	text-decoration: underline;
+}
+#header {
+	background-image:  url("header1.jpg");
+	background-repeat: no-repeat;
+	height: 122px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-top: 0px;
+	padding-left: 2px;
+}
+.article_table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+.article_title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+.article_content {
+	width: 147;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight: normal;
+}
+#title {
+	color: #ffffff;
+	background-color: #0056d6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	padding-left: 16px;
+}
+#menu {
+	vertical-align: top;
+	padding-top: 20px;
+	padding-right: 6px;
+	padding-bottom: 20px;
+	padding-left: 16px;
+	background-color : #040a83;
+}
+#menu a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #BFE4F1;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1.6em;
+	padding-left: 2px; /*space between link and bullet*/
+}
+#menu a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #BFE4F1;
+	text-decoration: none;
+	line-height: 1.6em;
+	padding-left: 2px; /*space between link and bullet*/
+}
+#menu a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	text-decoration: none;
+	line-height: 1.6em;
+}
+.leftcol1{
+	background-color : 0c0195;
+}
+.newsrow{
+	background-color : #0402a7;
+}
+
+#leftcol {
+	width: 174px;
+}
+#newsbox {
+	background-color: #a5bdf0;
+	text-align: left;
+	vertical-align:top;
+	padding: 10px;
+}
+#newsbox h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	letter-spacing: 0.2em;
+	padding-left:10px;
+}
+#newsbox h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 6px;
+	margin-bottom: 2px;
+	padding-left:10px;
+}
+#newsbox p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-left:10px;
+	color: #ffffff;
+	font-weight: bold;
+}
+#logo {
+	height: 92px;
+	width: 174px;
+	background-color : #1512cf;
+}
+#maincontent {
+	background-color: #ffffff;
+	vertical-align:top;
+	padding: 20px 15px 20px 20px;
+}
+#maincontent h1 {
+	color: #040404;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+#maincontent h2 {
+
+	color: #040404;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+}
+#maincontent p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+}
+contentcol{
+	background-color : #FFFFFF;
+}
+#promo {
+	background-color: #e4ebfc;
+	border: 1px solid #050000;
+	padding: 10px;
+	vertical-align:top;
+}
+#promo h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #070707;
+	margin-bottom: 0px;
+}
+#promo p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #080808;
+	margin-top: 5px;
+}
+
+#promo a:link {
+	color: #020f52;
+	text-decoration: none;
+}
+#promo a:hover {
+	color: #13135b;
+	text-decoration: underline;
+}
+#promo2 {
+	background-color: #F5F9FB;
+	border: 1px solid #D6E0E5;
+	padding: 10px;
+	vertical-align:top;
+}
+#promo2 h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #950808;
+	margin-bottom: 0px;
+}
+#promo2 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	margin-top: 5px;
+}
+#promo2 a:link {
+	color: #333A75;
+	text-decoration: none;
+}
+#promo2 a:hover {
+	color: #000099;
+	text-decoration: underline;
+}
+hr {
+	margin-bottom: 10px;
+	width: 100%;
+	color: #E0DFE3;
+}
+.topper{
+	background-color : #FFFFFF;
+	height : 39;
+}
+.footer {
+	background-image:  url("footerbg.gif");
+	background-repeat: repeat-x;
+	height: 43px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 6px;
+}
+
+.FormLt1 { 
+	font-family : Arial;
+	font-size : 8pt;
+	cursor: hand;
+	cursor:pointer;
+}
+
+textarea {
+	font-size:8pt; 
+	height:75px; 
+	width:175px;
+}
+
+.logohead {
+	font-family : Arial;
+	font-size : 25pt;
+	font-weight : bold;
+}
+
+.logosub {
+	font-family : Arial;
+	font-size : 8pt;
+	font-weight : bold;
+}
+
+.sohotext {
+	background-color:#FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 15px;
+}
+
+
+.border {  
+	font-family: Arial; 
+	font-size: 8pt; 
+	border: 1px #000000 inset;
+}
+
+.text {  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9pt;
+}
+
+.SMtext {  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 8pt;
+}
+
+.uptext {  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 7pt; 
+	color: darkgreen;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
